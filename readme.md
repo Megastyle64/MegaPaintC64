@@ -1,18 +1,6 @@
-######### FOR REVIEW DO NOT SHARE UNTIL approved ##################
+# Describe MegaPaint ? 
 
-Describe MegaPaint ? 
-
-Why MegaPaint ? 
-
-Who Made MegaPaint ? 
--- Megastyle -- 
-
-
-
-
-
-
-######### FOR REVIEW DO NOT SHARE UNTIL approved ##################
+## improve this ##
 
 You can drop a koala .KLA or a 320x200 .PNG file onto the running app, and it will load up.
 
@@ -20,52 +8,51 @@ You have 16 pages to paint with. you can use these for animations, or a page or 
 
 Painting with either a rectangle, a circle, or a brush you made yourself
 
-Keys
 
-    G : toggles pixel grid 
-    T : toggles cell grid 
-    C : toggles circle or box shape for brush 
-    V : toggle view colour clash for C64 bitmaps 
-    P : Pen mode 
-    L : Line mode ( L again will toggle stepped or full line )
-    F : Fill mode 
-    G : Rectangle grab for brushes
-    [ : decrease paint brush size
-    ] : increase paint brush size 
-    PAGE DOWN : decrease page number 
-    PAGE UP : increase page number 
-    , : decrease line step 
-    . : increase line step 
-    O : toggle dither transparency
-    BACKSPACE : check C64 compatibility 
-    V : toggle view clash boxes 
-    LEFT CTRL 
-        + Z : undo
-        + Y : reddo
-        + S : save png to resources/c64.png ###### should we remove this ######
-        + O : File Open dialog
-        + A : Save As dialog 
-  
+# Why MegaPaint ? 
 
-    To paint
-        LEFT MOUSE : foreground colour
-        RIGHT MOUSE : background colour 
-        LEFT SHIFT + button: ONLY UPDATE DITHER CHANNEL ( leave color alone )
-        LEFT ALT + button  : ONLY UPDATE COLOR CHANNEL ( leave dither alone )
+# Who Made MegaPaint ? 
+MonstersGoBoom for concept and most of the code.
 
-    MIDDLE MOUSE or SPACEBAR : move canvas around 
-    MOUSE WHEEL  : zoom in and out 
+Robert Ramsay for feature suggestions, quality of life suggestions, and bug finding. 
 
-you can also store brushes into one of the 8 available brush slots with 
-LEFT ALT + key 1 through 8 
-and to quickly retrieve them either use the Brush palette or 
-LEFT SHIFT + key 1 through 8
-
-
-
-Credits 
-MonstersGoBoom for concept and most of the code 
 Sakrac for C64Gfx which is used. https://github.com/Sakrac/C64Gfx
+
+
+| Keyboard      | Function |
+| ------------- | ------------- |
+| LEFT MOUSE | Foreground colour  |
+| MIDDLE MOUSE or SPACEBAR | Move canvas around  |
+| RIGHT MOUSE | Background colour  |
+| MOUSE WHEEL | Zoom  |
+| LEFT_SHIFT + either Mouse click | ONLY update dither channel ( leaving colour intact ) |
+| LEFT_ALT + either Mouse click | ONLY update color channels ( leaving dither intact ) |
+| G             | Toggle pixel grid  |
+| T  | Toggle cell grid 8x8   |
+| C  | Toggle between round or square brush   |
+| V  | Toggle viewing C64 colour clash  |
+| P  | Switch to drawing freestyle with pixels or brushes  |
+| L  | Switch to drawing with lines  |
+| F  | Switch to fill mode  |
+| G  | Switch to brush grab mode  |
+| [ | Decrease paint brush size |
+| ] | Increase paint brush size |
+| PAGE DOWN | Decrease page number | 
+| PAGE UP | Increase page number | 
+| , | Decrease line step |
+| . | Increase line step |
+| O | Toggle dither transparency |
+| BACKSPACE | Attempt to repair C64 colour clash issues | 
+| LEFT CTRL + Z | Undo last action |
+| LEFT CTRL + Y | Redo action |
+| LEFT CTRL + S | autosave to "resources/c64.png" |
+| LEFT CTRL + O | file open, import 320x200 png or Koala format image |
+| LEFT CTRL + A | file save, export 320x200 png and Koala format image |
+| LEFT ALT + 1 thru 8 | store currently grabbed brush into brush slot <n> |
+| LEFT SHIFT + 1 thru 8 | switch to brush from brush slot <n> |
+
+
+
 
 
 
