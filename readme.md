@@ -1,5 +1,19 @@
 ######### FOR REVIEW DO NOT SHARE UNTIL approved ##################
 
+Describe MegaPaint ? 
+
+Why MegaPaint ? 
+
+Who Made MegaPaint ? 
+-- Megastyle -- 
+
+
+
+
+
+
+######### FOR REVIEW DO NOT SHARE UNTIL approved ##################
+
 You can drop a koala .KLA or a 320x200 .PNG file onto the running app, and it will load up.
 
 You have 16 pages to paint with. you can use these for animations, or a page or two of brushes you like ( you have plenty, treat yourself )
