@@ -19,6 +19,12 @@ Robert Ramsay for feature suggestions, quality of life suggestions, and bug find
 Sakrac for C64Gfx which is used. https://github.com/Sakrac/C64Gfx
 
 
+# NOTE # 
+you may need visual C runtimes to run correctly, available here https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version 
+
+
+# Input
+
 | Keyboard      | Function |
 | ------------- | ------------- |
 | LEFT MOUSE | Foreground colour  |
