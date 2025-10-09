@@ -20,6 +20,7 @@ Sakrac for C64Gfx which is used. https://github.com/Sakrac/C64Gfx
 
 
 # NOTE # 
+Confirmed with VirusTotal to be virus free. certain lesser quality products are incorrectly flagging this with a false positive. 
 you may need visual C runtimes to run correctly, available here https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version 
 
 
